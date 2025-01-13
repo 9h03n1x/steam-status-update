@@ -1,0 +1,63 @@
+{
+	"Name": "Steam Status Update",
+	"Version": "0.2.0.0",
+	"Author": "niccohagedorn",
+	"Actions": [
+		{
+			"Name": "Steam Status",
+			"UUID": "com.niccohagedorn.steam-status-update.status",
+			"Icon": "imgs/plugin/status",
+			"Tooltip": "change the status of your steam chat",
+			"PropertyInspectorPath": "ui/status.html",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/plugin/steam",
+					"TitleAlignment": "middle"
+				}
+			]
+		},
+		{
+			"Name": "Open Steam View",
+			"UUID": "com.niccohagedorn.steam-status-update.openview",
+			"Icon": "imgs/plugin/steam",
+			"Tooltip": "open a specified view in steam",
+			"PropertyInspectorPath": "ui/openview.html",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/plugin/steam",
+					"TitleAlignment": "middle"
+				}
+			]
+		}
+	],
+	"Category": "Steam Status Update",
+	"CategoryIcon": "imgs/plugin/steam",
+	"CodePath": "bin/plugin.js",
+	"Description": "this plugin allows you to switch your steam chat status with a key press",
+	"Icon": "imgs/plugin/marketplace",
+	"SDKVersion": 2,
+	"Software": {
+		"MinimumVersion": "6.5"
+	},
+	"OS": [
+		{
+			"Platform": "mac",
+			"MinimumVersion": "10.15"
+		},
+		{
+			"Platform": "windows",
+			"MinimumVersion": "10"
+		}
+	],
+	"Nodejs": {
+		"Version": "20",
+		"Debug": "enabled"
+	},
+	"UUID": "com.niccohagedorn.steam-status-update"
+}
