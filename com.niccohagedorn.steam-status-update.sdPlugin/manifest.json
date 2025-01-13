@@ -14,7 +14,7 @@
 			],
 			"States": [
 				{
-					"Image": "imgs/plugin/steam",
+					"Image": "imgs/plugin/steam_color",
 					"TitleAlignment": "middle"
 				}
 			]
@@ -30,7 +30,7 @@
 			],
 			"States": [
 				{
-					"Image": "imgs/plugin/steam",
+					"Image": "imgs/plugin/steam_color",
 					"TitleAlignment": "middle"
 				}
 			]
