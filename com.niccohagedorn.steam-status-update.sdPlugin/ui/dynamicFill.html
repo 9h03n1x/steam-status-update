@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+	<head lang="en">
+		<meta charset="utf-8" />
+		<script src="https://sdpi-components.dev/releases/v3/sdpi-components.js"></script>
+	</head>
+	<body>
+        <sdpi-item label="Select">
+            <sdpi-select setting="color" placeholder="Please choose a color">
+                <script>
+                    const { streamDeckClient } = SDPIComponents;
+                    (async function () {
+    const settings = await SDPIComponents.streamDeckClient.getGlobalSettings();
+})();
+                </script>
+            </sdpi-select>
+        </sdpi-item>
+
+		
+	</body>
+</html>

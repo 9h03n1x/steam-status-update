@@ -34,6 +34,22 @@
 					"TitleAlignment": "middle"
 				}
 			]
+		},
+		{
+			"Name": "Demo for UI",
+			"UUID": "com.niccohagedorn.steam-status-update.GlobalSettings",
+			"Icon": "imgs/plugin/status",
+			"Tooltip": "change the status of your steam chat",
+			"PropertyInspectorPath": "ui/dynamicFill.html",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/plugin/steam_color",
+					"TitleAlignment": "middle"
+				}
+			]
 		}
 	],
 	"Category": "Steam Status Update",
