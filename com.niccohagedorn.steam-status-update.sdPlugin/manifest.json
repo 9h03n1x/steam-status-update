@@ -1,6 +1,6 @@
 {
 	"Name": "Steam Status Update",
-	"Version": "0.2.0.1",
+	"Version": "0.2.0.2",
 	"Author": "niccohagedorn",
 	"Actions": [
 		{
@@ -52,7 +52,7 @@
 		},
 		{
 			"Platform": "windows",
-			"MinimumVersion": "11"
+			"MinimumVersion": "10"
 		}
 	],
 	"Nodejs": {
